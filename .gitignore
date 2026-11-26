@@ -1,0 +1,27 @@
+# 编译输出
+bin/
+obj/
+/dist/
+/dist_run/
+.vs/
+*.user
+*.suo
+
+# 运行时生成的数据（便携模式在 exe 旁的 runtime\ 下生成）
+runtime/.minecraft/
+runtime/PCL JT Pro Max/
+/OpenLauncher/
+/.minecraft/
+
+# 敏感信息：发布私钥、本地密钥、部署凭据，绝对不要提交
+private-key.xml
+*.private.xml
+*.pfx
+*.snk
+keys/
+.deploy_pw.tmp
+
+# 系统/编辑器杂项
+.DS_Store
+Thumbs.db
+*.log
